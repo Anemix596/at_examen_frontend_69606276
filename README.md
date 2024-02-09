@@ -5,6 +5,20 @@
 npm install
 ```
 
+## install vue
+```
+npm install -g @vue/cli
+```
+
+## install vue-router
+```
+npm install vue-router
+```
+## install axios
+```
+npm install axios
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
