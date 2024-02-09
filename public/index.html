@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- ================== BEGIN BASE CSS STYLE ================== -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="./assets/css/material/app.min.css" rel="stylesheet" />
+    <!-- ================== END BASE CSS STYLE ================== -->
+      
+    <!-- ================== BEGIN PAGE LEVEL STYLE ================== -->
+    <link href="./assets/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" />
+
+    <link href="./assets/plugins/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+	  <link href="./assets/plugins/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet" />
+    <!-- ================== END PAGE LEVEL STYLE ================== -->
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <!-- ================== BEGIN BASE JS ================== -->
+	<script src="./assets/js/app.min.js"></script>
+	<script src="./assets/js/theme/material.min.js"></script>
+	<!-- ================== END BASE JS ================== -->
+	
+	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
+	<script src="./assets/plugins/gritter/js/jquery.gritter.js"></script>
+	<script src="./assets/plugins/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="./assets/js/demo/ui-modal-notification.demo.js"></script>
+
+  <script src="./assets/plugins/datatables.net/js/jquery.dataTables.min.js"></script>
+	<script src="./assets/plugins/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+	<script src="./assets/plugins/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+	<script src="./assets/plugins/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+	<script src="./assets/js/demo/table-manage-default.demo.js"></script>
+	<!-- ================== END PAGE LEVEL JS ================== -->
+  </body>
+  
+</html>
